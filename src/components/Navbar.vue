@@ -1,7 +1,7 @@
 <template>
   <va-navbar color="#ffffff" shape class="mb-2 sticky">
     <template #left>
-      <va-button>Humble Coffee</va-button>
+      <va-button class="disappear">Humble Coffees</va-button>
     </template>
     <template #right>
         <va-button-group>
