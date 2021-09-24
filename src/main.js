@@ -1,4 +1,9 @@
 import { createApp } from 'vue'
 import App from './App.vue'
 
-createApp(App).mount('#app')
+import { VuesticPlugin } from 'vuestic-ui'
+import 'vuestic-ui/dist/vuestic-ui.css' 
+
+const app = createApp(App)
+app.use(VuesticPlugin)
+app.mount('#app')
