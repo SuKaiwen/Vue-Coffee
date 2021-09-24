@@ -1,20 +1,26 @@
 <template>
   <Navbar />
-  <Landing msg="pepe" />
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <Landing />
+  <AboutUs />
+  <Ingredients />
+  <OurCoffees />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
 import Landing from './components/Landing.vue'
 import Navbar from './components/Navbar.vue'
+import AboutUs from './components/AboutUs.vue'
+import Ingredients from './components/Ingredients.vue'
+import OurCoffees from './components/OurCoffees.vue'
 
 export default {
   name: 'App',
   components: {
     Landing,
-    HelloWorld,
-    Navbar
+    Navbar,
+    AboutUs,
+    Ingredients,
+    OurCoffees
   }
 }
 </script>
